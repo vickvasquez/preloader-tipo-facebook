@@ -132,3 +132,19 @@
 		background-position: 0 0;
 	}
 }
+
+@media screen and (max-width:768px) {
+	.card-item-container {
+		width:90%
+	}
+}
+
+@media screen and (max-width:768px) and (orientation:portrait) {
+	.card-item-container {
+		height: 320px
+	}
+
+	.preloader-right:after {
+    	height: 249px; 
+	}
+}
